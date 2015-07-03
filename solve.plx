@@ -2,8 +2,9 @@
 
 use strict;
 use Carp;
+use FindBin;
 
-use lib 'perllib';
+use lib "$FindBin::Bin/perllib";
 use board;
 use clot;
 use cell;
